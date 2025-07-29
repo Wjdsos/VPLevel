@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/VPLevel/Content/Example.umap",
+				"C:/VPLevel/Content/SciFiInterior05/Maps/Example.umap",
+				"C:/VPLevel/Content/VPLevel.umap"
+			]
+		}
+	]
+}
