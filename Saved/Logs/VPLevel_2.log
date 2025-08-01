@@ -1152,3 +1152,561 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.08.01-08.23.38:775][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
 [2025.08.01-08.23.38:776][  0]LogPakFile: Initializing PakPlatformFile
 [2025.08.01-08.23.38:777][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.08.01-08.23.39:282][  0]LogSlate: Took 0.002648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.08.01-08.23.39:287][  0]LogSlate: Took 0.000782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.08.01-08.23.39:288][  0]LogSlate: Took 0.000649 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.08.01-08.23.39:494][  0]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.23.39:911][  0]LogStall: Startup...
+[2025.08.01-08.23.39:915][  0]LogStall: Startup complete.
+[2025.08.01-08.23.39:915][  0]LogGameProjectGeneration: Project VPLevel requires update. Plugin DatasmithCADImporter SupportedTargetPlatforms value in project descriptor (Win64) differs from value in plugin descriptor (Win64, Linux) 
+[2025.08.01-08.23.39:952][  0]LogLoad: (Engine Initialization) Total time: 35.46 seconds
+[2025.08.01-08.23.40:494][  0]LogContentStreaming: Texture pool size now 2000 MB
+[2025.08.01-08.23.40:494][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="2000"
+[2025.08.01-08.23.40:933][  0]LogSlate: Took 0.002323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.08.01-08.23.41:108][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.23.41:172][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MovieScene/MovieRenderPipeline/Content/Python/init_unreal.py... started...
+[2025.08.01-08.23.41:324][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MovieScene/MovieRenderPipeline/Content/Python/init_unreal.py... took 152.050 ms
+[2025.08.01-08.23.41:393][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.08.01-08.23.41:456][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.08.01-08.23.41:468][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 74.938 ms (total: 226.989 ms)
+[2025.08.01-08.23.41:886][  1]LogAssetRegistry: AssetRegistryGather time 0.2173s: AssetDataDiscovery 0.0158s, AssetDataGather 0.0765s, StoreResults 0.1249s. Wall time 18.7370s.
+	NumCachedDirectories 1637. NumUncachedDirectories 26. NumCachedFiles 8241. NumUncachedFiles 37.
+	BackgroundTickInterruptions 2.
+[2025.08.01-08.23.41:942][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2025.08.01-08.23.41:954][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2025.08.01-08.23.41:956][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2025.08.01-08.23.41:986][  1]LogNiagara: Compiling System NiagaraSystem /Game/Realistic_Starter_VFX_Pack_Vol2/Particles/Destruction/NS_EMP.NS_EMP took 4.425595 sec (time since issued).
+[2025.08.01-08.23.42:169][  2]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.23.42:183][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 8.816500
+[2025.08.01-08.23.42:184][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.08.01-08.23.42:187][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8.964767
+[2025.08.01-08.23.42:372][  4]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.23.42:391][  4]LogD3D12RHI: Creating RTPSO with 22 shaders (0 cached, 2 new) took 71.02 ms. Compile time 66.61 ms, link time 4.38 ms.
+[2025.08.01-08.23.42:661][  8]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.08.01-08.23.42:895][ 35]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 9.669030
+[2025.08.01-08.23.42:897][ 35]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1327463752
+[2025.08.01-08.23.42:897][ 35]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9.669030, Update Interval: 338.464294
+[2025.08.01-08.23.43:515][ 86]LogSourceControl: Uncontrolled asset discovery finished in 1.559195 seconds (Found 8254 uncontrolled assets)
+[2025.08.01-08.23.44:186][123]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.08.01-08.23.44:255][124]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.23.45:134][125]Cmd: DELETE
+[2025.08.01-08.23.45:134][125]Cmd: ACTOR DELETE
+[2025.08.01-08.23.45:138][125]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.08.01-08.23.45:249][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.08.01-08.23.45:251][125]LogEditorActor: Deleted 1 Actors (0.116 secs)
+[2025.08.01-08.23.45:275][126]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.23.45:289][128]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.23.45:299][128]LogD3D12RHI: Creating RTPSO with 23 shaders (0 cached, 1 new) took 24.21 ms. Compile time 17.95 ms, link time 6.24 ms.
+[2025.08.01-08.23.45:303][129]LogD3D12RHI: Creating RTPSO with 23 shaders (1 cached, 0 new) took 12.89 ms. Compile time 2.89 ms, link time 9.98 ms.
+[2025.08.01-08.23.45:822][170]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-08.23.45:892][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../VPLevelProject/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.08.01-08.23.45:954][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.08.01-08.23.45:973][170]LogSavePackage: Moving output files for package: /Game/Main
+[2025.08.01-08.23.45:973][170]LogSavePackage: Moving '../../../../../../VPLevelProject/Saved/MainADB400304B015FAE4ABB7BBE322EE001.tmp' to '../../../../../../VPLevelProject/Content/Main.umap'
+[2025.08.01-08.23.45:995][170]LogFileHelpers: Saving map 'Main' took 0.104
+[2025.08.01-08.23.46:021][170]LogFileHelpers: InternalPromptForCheckoutAndSave took 198.631 ms
+[2025.08.01-08.23.46:113][170]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.01-08.23.46:113][170]LogContentValidation: Enabled validators:
+[2025.08.01-08.23.46:113][170]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-08.23.46:113][170]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-08.23.46:113][170]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-08.23.46:113][170]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-08.23.46:113][170]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-08.23.46:113][170]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-08.23.46:114][170]AssetCheck: /Game/Main Validating asset
+[2025.08.01-08.23.46:699][207]LogSlate: Took 0.000698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.08.01-08.23.53:989][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.08.01-08.23.53:991][754]LogStreaming: Display: FlushAsyncLoading(347): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.23.54:608][754]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2025.08.01-08.23.54:730][754]LogChaosDD: Creating Chaos Debug Draw Scene for world VPLevel
+[2025.08.01-08.23.54:834][754]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VPLevel.VPLevel
+[2025.08.01-08.23.54:841][754]Cmd: MAP LOAD FILE="../../../../../../VPLevelProject/Content/VPLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.08.01-08.23.54:866][754]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 4609.000 MiB, MemoryLimit = 3859.070312 MiB 
+[2025.08.01-08.23.54:866][754]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 4609.000 MiB, MemoryLimit = 3859.097656 MiB 
+[2025.08.01-08.23.54:867][754]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 4609.000 MiB, MemoryLimit = 3859.097656 MiB 
+[2025.08.01-08.23.54:867][754]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 4609.000 MiB, MemoryLimit = 3859.097656 MiB 
+[2025.08.01-08.23.54:867][754]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 4609.000 MiB, MemoryLimit = 3859.097656 MiB 
+[2025.08.01-08.23.54:867][754]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 4609.000 MiB, MemoryLimit = 3859.097656 MiB 
+[2025.08.01-08.23.54:867][754]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 4609.000 MiB, MemoryLimit = 3859.097656 MiB 
+[2025.08.01-08.23.54:868][754]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 4609.000 MiB, MemoryLimit = 3859.097656 MiB 
+[2025.08.01-08.23.54:868][754]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 4609.000 MiB, MemoryLimit = 3859.097656 MiB 
+[2025.08.01-08.23.54:868][754]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 4609.000 MiB, MemoryLimit = 3859.097656 MiB 
+[2025.08.01-08.23.54:888][754]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.23.54:888][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.23.54:914][754]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.08.01-08.23.54:917][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.08.01-08.23.55:082][754]LogWorld: UWorld::CleanupWorld for VPLevel, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.23.55:095][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.23.55:160][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.08.01-08.23.55:185][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.08.01-08.23.55:506][754]LogAudio: Display: Audio Device (ID: 1) registered with world 'VPLevel'.
+[2025.08.01-08.23.55:506][754]LogChaosDD: Creating Chaos Debug Draw Scene for world VPLevel
+[2025.08.01-08.23.55:919][754]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2025.08.01-08.23.56:059][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.08.01-08.23.56:104][754]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.08.01-08.23.56:105][754]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.566ms to complete.
+[2025.08.01-08.23.57:105][755]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.23.57:698][757]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.23.57:737][757]LogD3D12RHI: Creating RTPSO with 209 shaders (0 cached, 11 new) took 39.17 ms. Compile time 35.44 ms, link time 3.54 ms.
+[2025.08.01-08.24.04:969][ 66]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.08.01-08.24.05:003][ 66]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.24.14:766][546]LogSlate: Took 0.009018 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.08.01-08.24.15:972][604]LogStreaming: Display: FlushAsyncLoading(349): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.24.16:003][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.08.01-08.24.16:148][604]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.08.01-08.24.16:169][604]LogSlate: Took 0.020247 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.08.01-08.24.16:961][604]LogSlate: Window 'Delete Assets' being destroyed
+[2025.08.01-08.24.17:029][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.08.01-08.24.17:055][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.08.01-08.24.17:079][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.01-08.24.17:868][643]LogStreaming: Display: FlushAsyncLoading(350): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.24.17:910][643]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Sequence/Seq2.Seq2
+[2025.08.01-08.24.18:054][643]LogSequenceNavigator: Activating provider: LevelSequence
+[2025.08.01-08.24.18:054][643]LogSequenceNavigator: Loading provider state: LevelSequence
+[2025.08.01-08.24.18:098][643]LogSequenceNavigator: Tool instance 'LevelSequenceEditor' provider 'LevelSequence' registered
+[2025.08.01-08.24.18:626][643]LogSlate: Took 0.001068 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.08.01-08.24.40:768][122]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.01-08.24.52:358][911]LogContentBrowser: Attempting asset rename: Seq3 -> Seq3
+[2025.08.01-08.24.55:019][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.08.01-08.24.55:025][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-08.24.55:093][ 86]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequence/Seq3] ([1] browsable assets)...
+[2025.08.01-08.24.55:093][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequence/Seq3]
+[2025.08.01-08.24.55:093][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequence/Seq3" FILE="../../../../../../VPLevelProject/Content/Sequence/Seq3.uasset" SILENT=true
+[2025.08.01-08.24.55:117][ 86]LogSavePackage: Moving output files for package: /Game/Sequence/Seq3
+[2025.08.01-08.24.55:117][ 86]LogSavePackage: Moving '../../../../../../VPLevelProject/Saved/Seq3C54153884A5ACAEEEFA7A1BAC73C35AA.tmp' to '../../../../../../VPLevelProject/Content/Sequence/Seq3.uasset'
+[2025.08.01-08.24.55:132][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.306 ms (total: 304.937 ms)
+[2025.08.01-08.24.55:189][ 86]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.01-08.24.55:189][ 86]LogContentValidation: Enabled validators:
+[2025.08.01-08.24.55:189][ 86]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-08.24.55:189][ 86]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-08.24.55:189][ 86]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-08.24.55:189][ 86]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-08.24.55:189][ 86]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-08.24.55:189][ 86]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-08.24.55:190][ 86]AssetCheck: /Game/Sequence/Seq3 Validating asset
+[2025.08.01-08.24.55:235][ 86]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../VPLevelProject/Saved/SourceControl/UncontrolledChangelists.json
+[2025.08.01-08.25.13:517][351]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.08.01-08.25.13:608][352]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.25.13:966][367]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.08.01-08.25.14:065][368]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.25.15:248][417]LogDerivedDataCache: C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.007 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.01-08.25.34:101][629]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Sequence/Seq3.Seq3
+[2025.08.01-08.25.34:164][629]LogSequenceNavigator: Deactivating provider: LevelSequence
+[2025.08.01-08.25.34:167][629]LogSequenceNavigator: Provider unregistered: LevelSequence
+[2025.08.01-08.25.34:314][629]LogSequenceNavigator: Activating provider: LevelSequence
+[2025.08.01-08.25.34:314][629]LogSequenceNavigator: Loading provider state: LevelSequence
+[2025.08.01-08.25.34:354][629]LogSequenceNavigator: Tool instance 'LevelSequenceEditor' provider 'LevelSequence' registered
+[2025.08.01-08.25.54:057][732]LogStreaming: Display: FlushAsyncLoading(352): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.26.36:878][126]LogSlate: Took 0.000909 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.08.01-08.26.43:762][579]LogStreaming: Display: FlushAsyncLoading(353): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.26.49:840][721]LogSlate: Window 'Anim Layers' being destroyed
+[2025.08.01-08.26.49:850][721]LogSlate: Window 'Anim Layers' being destroyed
+[2025.08.01-08.27.08:546][979]LogStreaming: Display: FlushAsyncLoading(368): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.27.08:553][979]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/SciFiWarrior02/Animations/Button_Pushing.Button_Pushing (Required Memory Estimate: 1.48 MB)
+[2025.08.01-08.27.08:596][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/SciFiWarrior02/Animations/Button_Pushing.Button_Pushing, at AnimationSequence/586b8d0c0c7bfa3b67067faf06e41c54af005dca
+[2025.08.01-08.27.14:874][379]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.08.01-08.27.15:020][380]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.27.35:119][826]LogStreaming: Display: FlushAsyncLoading(369): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.27.35:127][826]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/SciFiWarrior02/Animations/Salute.Salute (Required Memory Estimate: 1.33 MB)
+[2025.08.01-08.27.35:166][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/SciFiWarrior02/Animations/Salute.Salute, at AnimationSequence/5f2ef2b7c865f1d594933694aa4854623c7340d4
+[2025.08.01-08.27.35:871][848]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.01-08.28.27:121][ 51]LogStreaming: Display: FlushAsyncLoading(370): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.28.27:127][ 51]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/SciFiWarrior02/Animations/run_to_stop.run_to_stop (Required Memory Estimate: 0.57 MB)
+[2025.08.01-08.28.27:145][ 51]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/SciFiWarrior02/Animations/run_to_stop.run_to_stop, at AnimationSequence/f287948cf709993a53352df3fc858178b3f5098b
+[2025.08.01-08.29.21:376][778]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 348.156189
+[2025.08.01-08.29.21:614][795]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.01-08.29.21:614][795]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 348.382233, Update Interval: 320.402222
+[2025.08.01-08.29.58:686][492]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.08.01-08.29.58:794][493]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.30.15:592][397]LogStreaming: Display: FlushAsyncLoading(371): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.30.21:932][825]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.08.01-08.30.21:949][825]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.31.37:438][855]Cmd: TRANSACTION UNDO
+[2025.08.01-08.31.37:439][855]LogEditorTransaction: Undo Move Control
+[2025.08.01-08.31.42:864][ 76]Cmd: TRANSACTION UNDO
+[2025.08.01-08.31.42:864][ 76]LogEditorTransaction: Undo Move Control
+[2025.08.01-08.31.58:029][798]Cmd: TRANSACTION UNDO
+[2025.08.01-08.31.58:029][798]LogEditorTransaction: Undo Move Control
+[2025.08.01-08.32.05:424][117]Cmd: TRANSACTION UNDO
+[2025.08.01-08.32.05:424][117]LogEditorTransaction: Undo Move Control
+[2025.08.01-08.32.22:764][ 42]Cmd: TRANSACTION UNDO
+[2025.08.01-08.32.22:764][ 42]LogEditorTransaction: Undo Marquee Select
+[2025.08.01-08.34.12:843][210]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.01-08.34.25:838][ 62]LogStreaming: Display: FlushAsyncLoading(372): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.34.30:059][296]Cmd: TRANSACTION UNDO
+[2025.08.01-08.34.30:059][296]LogEditorTransaction: Undo Move Keys or Sections
+[2025.08.01-08.34.44:651][120]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 671.435669
+[2025.08.01-08.34.44:895][136]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.01-08.34.44:895][136]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 671.663879, Update Interval: 300.736115
+[2025.08.01-08.35.11:827][802]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.01-08.35.24:492][602]LogStreaming: Display: FlushAsyncLoading(373): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.35.24:498][602]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/SciFiWarrior02/Animations/ThirdPersonIdle.ThirdPersonIdle (Required Memory Estimate: 1.24 MB)
+[2025.08.01-08.35.24:525][602]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/SciFiWarrior02/Animations/ThirdPersonIdle.ThirdPersonIdle, at AnimationSequence/cd0cc616e273e8a77b618144e0eed03de62f6ec4
+[2025.08.01-08.35.51:099][109]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/SciFiWarrior02/Animations/run_to_stop.run_to_stop
+[2025.08.01-08.35.51:127][109]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.08.01-08.35.51:153][109]LogStreaming: Display: FlushAsyncLoading(374): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.35.51:208][109]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.35.52:132][109]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.08.01-08.35.52:304][109]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.35.52:913][109]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2025.08.01-08.35.52:928][109]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.08.01-08.35.53:067][109]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.35.53:328][112]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.35.53:354][112]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.35.53:432][113]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.35.53:667][113]LogD3D12RHI: Creating RTPSO with 38 shaders (0 cached, 1 new) took 333.78 ms. Compile time 40.58 ms, link time 293.01 ms.
+[2025.08.01-08.35.53:745][113]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.35.53:763][113]LogD3D12RHI: Creating RTPSO with 230 shaders (1 cached, 0 new) took 404.78 ms. Compile time 15.71 ms, link time 388.98 ms.
+[2025.08.01-08.35.53:766][113]LogD3D12RHI: Creating RTPSO with 210 shaders (1 cached, 0 new) took 334.01 ms. Compile time 0.05 ms, link time 333.88 ms.
+[2025.08.01-08.35.54:397][124]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.08.01-08.35.54:473][125]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.35.59:731][283]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.01-08.35.59:853][286]LogSlate: Window 'run_to_stop' being destroyed
+[2025.08.01-08.35.59:916][286]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.35.59:916][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.35.59:933][286]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.35.59:933][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.36.00:004][286]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.36.00:005][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.36.00:164][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.08.01-08.36.03:045][430]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/run_to_stop.run_to_stop:InterchangeAssetImportData_0
+[2025.08.01-08.36.05:123][498]LogContentBrowser: Attempting asset rename: run_to_stop -> run_to_stop2
+[2025.08.01-08.36.05:448][498]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-08.36.05:448][498]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/run_to_stop2] ([1] browsable assets)...
+[2025.08.01-08.36.05:536][498]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/run_to_stop2.run_to_stop2]
+[2025.08.01-08.36.05:536][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/run_to_stop2]
+[2025.08.01-08.36.05:536][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/run_to_stop2" FILE="../../../../../../VPLevelProject/Content/run_to_stop2.uasset" SILENT=true
+[2025.08.01-08.36.05:589][498]LogSavePackage: Moving output files for package: /Game/run_to_stop2
+[2025.08.01-08.36.05:589][498]LogSavePackage: Moving '../../../../../../VPLevelProject/Saved/run_to_stop241E133914724C8F8448BD287F55178A7.tmp' to '../../../../../../VPLevelProject/Content/run_to_stop2.uasset'
+[2025.08.01-08.36.05:590][498]LogFileHelpers: InternalPromptForCheckoutAndSave took 141.999 ms (total: 446.936 ms)
+[2025.08.01-08.36.05:625][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.08.01-08.36.05:647][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.08.01-08.36.05:669][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.08.01-08.36.05:740][498]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.01-08.36.05:740][498]LogContentValidation: Enabled validators:
+[2025.08.01-08.36.05:740][498]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-08.36.05:740][498]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-08.36.05:740][498]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-08.36.05:740][498]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-08.36.05:740][498]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-08.36.05:740][498]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-08.36.05:744][498]AssetCheck: /Game/run_to_stop2 Validating asset
+[2025.08.01-08.36.05:857][498]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../VPLevelProject/Saved/SourceControl/UncontrolledChangelists.json
+[2025.08.01-08.36.07:058][539]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/run_to_stop2.run_to_stop2
+[2025.08.01-08.36.07:060][539]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.08.01-08.36.07:089][539]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.36.07:637][539]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.08.01-08.36.08:285][539]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.08.01-08.36.08:459][539]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.36.08:552][540]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.36.08:564][540]LogD3D12RHI: Creating RTPSO with 39 shaders (0 cached, 1 new) took 11.84 ms. Compile time 8.67 ms, link time 3.14 ms.
+[2025.08.01-08.36.08:578][541]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.36.08:589][541]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.36.08:604][541]LogD3D12RHI: Creating RTPSO with 231 shaders (1 cached, 0 new) took 26.12 ms. Compile time 0.09 ms, link time 25.94 ms.
+[2025.08.01-08.36.08:608][541]LogD3D12RHI: Creating RTPSO with 211 shaders (1 cached, 0 new) took 17.51 ms. Compile time 0.07 ms, link time 17.35 ms.
+[2025.08.01-08.36.26:907][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-08.36.27:066][ 66]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/run_to_stop2] ([1] browsable assets)...
+[2025.08.01-08.36.27:085][ 66]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/run_to_stop2.run_to_stop2]
+[2025.08.01-08.36.27:085][ 66]OBJ SavePackage: Finished generating thumbnails for package [/Game/run_to_stop2]
+[2025.08.01-08.36.27:085][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/run_to_stop2" FILE="../../../../../../VPLevelProject/Content/run_to_stop2.uasset" SILENT=true
+[2025.08.01-08.36.27:106][ 66]LogSavePackage: Moving output files for package: /Game/run_to_stop2
+[2025.08.01-08.36.27:106][ 66]LogSavePackage: Moving '../../../../../../VPLevelProject/Saved/run_to_stop235BDE9B2460704531A122886BA13C12F.tmp' to '../../../../../../VPLevelProject/Content/run_to_stop2.uasset'
+[2025.08.01-08.36.27:131][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 223.112 ms (total: 670.048 ms)
+[2025.08.01-08.36.27:197][ 66]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.01-08.36.27:197][ 66]LogContentValidation: Enabled validators:
+[2025.08.01-08.36.27:197][ 66]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-08.36.27:197][ 66]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-08.36.27:197][ 66]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-08.36.27:197][ 66]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-08.36.27:197][ 66]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-08.36.27:197][ 66]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-08.36.27:202][ 66]AssetCheck: /Game/run_to_stop2 Validating asset
+[2025.08.01-08.37.18:514][ 20]LogSlate: Window 'run_to_stop2' being destroyed
+[2025.08.01-08.37.22:826][242]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.37.22:858][242]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.37.22:880][243]LogD3D12RHI: Creating RTPSO with 232 shaders (0 cached, 1 new) took 53.72 ms. Compile time 25.75 ms, link time 27.84 ms.
+[2025.08.01-08.37.23:456][274]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.37.24:510][323]LogStreaming: Display: FlushAsyncLoading(377): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.01-08.37.24:521][323]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/Sprint2.Sprint2
+[2025.08.01-08.37.24:720][323]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.08.01-08.37.24:809][323]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.37.24:809][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.37.24:880][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.08.01-08.37.25:063][325]LogRenderer: Using fallback RTPSO
+[2025.08.01-08.37.25:105][325]LogD3D12RHI: Creating RTPSO with 40 shaders (1 cached, 0 new) took 41.30 ms. Compile time 0.01 ms, link time 41.27 ms.
+[2025.08.01-08.37.33:003][929]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.37.33:003][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.37.33:008][929]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.37.33:008][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.37.33:070][929]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.37.33:070][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.37.33:103][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.08.01-08.37.39:452][239]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/run_to_stop2.run_to_stop2
+[2025.08.01-08.37.39:453][239]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.08.01-08.37.39:463][239]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.37.40:090][239]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.08.01-08.37.40:758][239]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.08.01-08.37.40:856][239]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.01-08.38.13:142][328]LogSlate: Window 'run_to_stop2' being destroyed
+[2025.08.01-08.38.26:716][992]Cmd: TRANSACTION UNDO
+[2025.08.01-08.38.26:716][992]LogEditorTransaction: Undo Move Control
+[2025.08.01-08.38.26:747][992]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.38.42:910][825]Cmd: TRANSACTION UNDO
+[2025.08.01-08.38.42:910][825]LogEditorTransaction: Undo Move Control
+[2025.08.01-08.38.42:943][825]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.39.51:921][600]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 978.706421
+[2025.08.01-08.39.52:178][616]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.01-08.39.52:178][616]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 978.947632, Update Interval: 348.984039
+[2025.08.01-08.40.12:970][854]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.01-08.40.41:267][434]Cmd: TRANSACTION UNDO
+[2025.08.01-08.40.41:267][434]LogEditorTransaction: Undo Add Keys at Current Time
+[2025.08.01-08.40.41:278][434]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.40.42:105][450]Cmd: TRANSACTION UNDO
+[2025.08.01-08.40.42:105][450]LogEditorTransaction: Undo Set Key
+[2025.08.01-08.40.42:140][450]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.41.54:437][492]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.01-08.45.16:398][746]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.01-08.45.22:368][179]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-08.45.22:459][179]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/run_to_stop2] ([1] browsable assets)...
+[2025.08.01-08.45.22:486][179]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/run_to_stop2.run_to_stop2]
+[2025.08.01-08.45.22:486][179]OBJ SavePackage: Finished generating thumbnails for package [/Game/run_to_stop2]
+[2025.08.01-08.45.22:486][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/run_to_stop2" FILE="../../../../../../VPLevelProject/Content/run_to_stop2.uasset" SILENT=true
+[2025.08.01-08.45.22:516][179]LogSavePackage: Moving output files for package: /Game/run_to_stop2
+[2025.08.01-08.45.22:516][179]LogSavePackage: Moving '../../../../../../VPLevelProject/Saved/run_to_stop2ADC010F5411DC280CF85EFB1B0B28763.tmp' to '../../../../../../VPLevelProject/Content/run_to_stop2.uasset'
+[2025.08.01-08.45.22:534][179]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.514 ms (total: 835.563 ms)
+[2025.08.01-08.45.22:598][179]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.01-08.45.22:598][179]LogContentValidation: Enabled validators:
+[2025.08.01-08.45.22:598][179]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-08.45.22:598][179]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-08.45.22:598][179]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-08.45.22:598][179]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-08.45.22:598][179]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-08.45.22:598][179]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-08.45.22:603][179]AssetCheck: /Game/run_to_stop2 Validating asset
+[2025.08.01-08.45.53:298][816]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1340.088867
+[2025.08.01-08.45.53:549][831]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.01-08.45.53:549][831]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1340.323120, Update Interval: 334.205139
+[2025.08.01-08.46.05:973][523]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.01-08.46.32:217][929]Cmd: TRANSACTION UNDO
+[2025.08.01-08.46.32:217][929]LogEditorTransaction: Undo Select Control
+[2025.08.01-08.46.32:316][929]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.46.46:608][656]Cmd: TRANSACTION UNDO
+[2025.08.01-08.46.46:608][656]LogEditorTransaction: Undo Set Key
+[2025.08.01-08.46.46:642][656]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.46.57:087][127]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.01-08.47.16:686][171]Cmd: TRANSACTION UNDO
+[2025.08.01-08.47.16:686][171]LogEditorTransaction: Undo Set Key
+[2025.08.01-08.47.16:719][171]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.48.04:080][657]Cmd: TRANSACTION UNDO
+[2025.08.01-08.48.04:080][657]LogEditorTransaction: Undo Marquee Select
+[2025.08.01-08.48.04:097][657]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.48.09:366][881]Cmd: TRANSACTION UNDO
+[2025.08.01-08.48.09:366][881]LogEditorTransaction: Undo Select Control
+[2025.08.01-08.48.09:383][881]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.48.20:623][369]Cmd: TRANSACTION UNDO
+[2025.08.01-08.48.20:623][369]LogEditorTransaction: Undo Select Control
+[2025.08.01-08.48.20:640][369]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.48.21:217][374]Cmd: TRANSACTION UNDO
+[2025.08.01-08.48.21:217][374]LogEditorTransaction: Undo Set Key
+[2025.08.01-08.48.21:262][374]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.48.22:132][418]Cmd: TRANSACTION UNDO
+[2025.08.01-08.48.22:132][418]LogEditorTransaction: Undo Select Control
+[2025.08.01-08.48.22:150][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.02:080][653]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.02:080][653]LogEditorTransaction: Undo Resize section
+[2025.08.01-08.49.02:092][653]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.02:417][654]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.02:417][654]LogEditorTransaction: Undo Set Key
+[2025.08.01-08.49.02:465][654]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.02:944][671]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.02:944][671]LogEditorTransaction: Undo Select Control
+[2025.08.01-08.49.02:962][671]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.03:443][693]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.03:443][693]LogEditorTransaction: Undo Set Key
+[2025.08.01-08.49.03:476][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.03:733][701]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.03:733][701]LogEditorTransaction: Undo Set Key
+[2025.08.01-08.49.03:765][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.04:161][717]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.04:161][717]LogEditorTransaction: Undo Set Key
+[2025.08.01-08.49.04:194][717]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.04:384][720]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.04:384][720]LogEditorTransaction: Undo Set Key
+[2025.08.01-08.49.04:422][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.04:595][723]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.04:595][723]LogEditorTransaction: Undo Set Key
+[2025.08.01-08.49.04:629][723]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.04:766][725]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.04:766][725]LogEditorTransaction: Undo Set Key
+[2025.08.01-08.49.04:800][725]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.04:928][728]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.04:929][728]LogEditorTransaction: Undo Select Control
+[2025.08.01-08.49.05:005][728]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.05:117][730]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.05:117][730]LogEditorTransaction: Undo Move Elements
+[2025.08.01-08.49.05:143][730]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.05:279][734]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.05:279][734]LogEditorTransaction: Undo Select Actors/Components
+[2025.08.01-08.49.05:286][734]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.49.37:617][477]Cmd: TRANSACTION UNDO
+[2025.08.01-08.49.37:617][477]LogEditorTransaction: Undo Resize section
+[2025.08.01-08.49.37:629][477]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.51.19:328][732]Cmd: TRANSACTION UNDO
+[2025.08.01-08.51.19:328][732]LogEditorTransaction: Undo Move Keys or Sections
+[2025.08.01-08.51.19:337][732]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.51.19:542][735]Cmd: TRANSACTION UNDO
+[2025.08.01-08.51.19:542][735]LogEditorTransaction: Undo Move Keys or Sections
+[2025.08.01-08.51.19:550][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.51.19:988][748]Cmd: TRANSACTION UNDO
+[2025.08.01-08.51.19:988][748]LogEditorTransaction: Undo Delete Sections
+[2025.08.01-08.51.19:996][748]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.08.01-08.51.45:961][404]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.01-08.51.55:657][ 10]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1702.453491
+[2025.08.01-08.51.55:918][ 27]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.01-08.51.55:918][ 27]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1702.699707, Update Interval: 317.260040
+[2025.08.01-08.52.00:595][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-08.52.00:666][301]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequence/Seq3] ([1] browsable assets)...
+[2025.08.01-08.52.00:666][301]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequence/Seq3]
+[2025.08.01-08.52.00:666][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequence/Seq3" FILE="../../../../../../VPLevelProject/Content/Sequence/Seq3.uasset" SILENT=true
+[2025.08.01-08.52.00:688][301]LogSavePackage: Moving output files for package: /Game/Sequence/Seq3
+[2025.08.01-08.52.00:688][301]LogSavePackage: Moving '../../../../../../VPLevelProject/Saved/Seq3D396392D421B0208640E06B829802871.tmp' to '../../../../../../VPLevelProject/Content/Sequence/Seq3.uasset'
+[2025.08.01-08.52.00:700][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.714 ms (total: 940.278 ms)
+[2025.08.01-08.52.00:764][301]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.01-08.52.00:764][301]LogContentValidation: Enabled validators:
+[2025.08.01-08.52.00:764][301]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-08.52.00:764][301]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-08.52.00:764][301]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-08.52.00:764][301]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-08.52.00:764][301]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-08.52.00:764][301]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-08.52.00:765][301]AssetCheck: /Game/Sequence/Seq3 Validating asset
+[2025.08.01-08.52.03:109][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.08.01-08.52.03:116][434]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-08.52.03:194][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VPLevel" FILE="../../../../../../VPLevelProject/Content/VPLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.08.01-08.52.03:273][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.08.01-08.52.04:321][434]LogSavePackage: Moving output files for package: /Game/VPLevel
+[2025.08.01-08.52.04:321][434]LogSavePackage: Moving '../../../../../../VPLevelProject/Saved/VPLevel97A76DC74755CFDF5704DE9BF5CA3C85.tmp' to '../../../../../../VPLevelProject/Content/VPLevel.umap'
+[2025.08.01-08.52.04:378][434]LogFileHelpers: Saving map 'VPLevel' took 1.187
+[2025.08.01-08.52.04:378][434]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequence/Seq2] ([1] browsable assets)...
+[2025.08.01-08.52.04:378][434]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequence/Seq2]
+[2025.08.01-08.52.04:378][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequence/Seq2" FILE="../../../../../../VPLevelProject/Content/Sequence/Seq2.uasset" SILENT=true
+[2025.08.01-08.52.04:401][434]LogSavePackage: Moving output files for package: /Game/Sequence/Seq2
+[2025.08.01-08.52.04:402][434]LogSavePackage: Moving '../../../../../../VPLevelProject/Saved/Seq2064ED12D436B293CDF31C89BFB1DC2E0.tmp' to '../../../../../../VPLevelProject/Content/Sequence/Seq2.uasset'
+[2025.08.01-08.52.04:415][434]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.29 sec (total: 2.23 sec)
+[2025.08.01-08.52.04:498][434]LogContentValidation: Display: Starting to validate 2 assets
+[2025.08.01-08.52.04:498][434]LogContentValidation: Enabled validators:
+[2025.08.01-08.52.04:498][434]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-08.52.04:498][434]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-08.52.04:499][434]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-08.52.04:499][434]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-08.52.04:499][434]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-08.52.04:499][434]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-08.52.04:501][434]AssetCheck: /Game/VPLevel Validating asset
+[2025.08.01-08.52.04:501][434]AssetCheck: /Game/Sequence/Seq2 Validating asset
+[2025.08.01-08.52.05:941][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.08.01-08.52.06:055][518]LogStall: Shutdown...
+[2025.08.01-08.52.06:055][518]LogStall: Shutdown complete.
+[2025.08.01-08.52.06:104][518]LogSequenceNavigator: Deactivating provider: LevelSequence
+[2025.08.01-08.52.06:108][518]LogSequenceNavigator: Provider unregistered: LevelSequence
+[2025.08.01-08.52.06:172][518]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:172][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:241][518]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:241][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:252][518]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:252][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:333][518]LogSlate: Window 'VPLevel - Unreal Editor' being destroyed
+[2025.08.01-08.52.06:628][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.08.01-08.52.06:642][518]Cmd: QUIT_EDITOR
+[2025.08.01-08.52.06:642][519]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.08.01-08.52.06:651][519]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.08.01-08.52.06:663][519]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.08.01-08.52.06:663][519]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.08.01-08.52.06:763][519]LogWorld: UWorld::CleanupWorld for VPLevel, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:782][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:812][519]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.08.01-08.52.06:812][519]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.08.01-08.52.06:815][519]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.08.01-08.52.06:833][519]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:833][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:835][519]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:835][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:835][519]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:835][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:836][519]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:836][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:836][519]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:836][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:836][519]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:836][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:837][519]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:837][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:837][519]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-08.52.06:837][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-08.52.06:841][519]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.08.01-08.52.06:843][519]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.08.01-08.52.06:851][519]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.08.01-08.52.06:858][519]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.08.01-08.52.06:858][519]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.08.01-08.52.06:858][519]LogAudio: Display: Audio Device unregistered from world 'VPLevel'.
+[2025.08.01-08.52.06:858][519]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.08.01-08.52.06:858][519]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.08.01-08.52.06:870][519]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.08.01-08.52.06:870][519]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.08.01-08.52.06:880][519]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.08.01-08.52.06:881][519]LogAudio: Display: Audio Device Manager Shutdown
+[2025.08.01-08.52.06:888][519]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.08.01-08.52.06:894][519]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.08.01-08.52.06:895][519]LogExit: Preparing to exit.
+[2025.08.01-08.52.06:965][519]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.08.01-08.52.08:068][519]LogEditorDataStorage: Deinitializing
+[2025.08.01-08.52.08:272][519]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.08.01-08.52.08:338][519]LogExit: Editor shut down
+[2025.08.01-08.52.08:348][519]LogExit: Transaction tracking system shut down
+[2025.08.01-08.52.09:003][519]LogExit: Object subsystem successfully closed.
+[2025.08.01-08.52.09:084][519]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.08.01-08.52.09:307][519]LogPackageName: Display: FPackageName: Mount point removed: '../../../../../../VPLevelProject/Intermediate/DataprepTemp/' unmounted from '/DataprepCore/Transient/'
+[2025.08.01-08.52.09:325][519]LogMemoryProfiler: Shutdown
+[2025.08.01-08.52.09:326][519]LogNetworkingProfiler: Shutdown
+[2025.08.01-08.52.09:326][519]LoadingProfiler: Shutdown
+[2025.08.01-08.52.09:327][519]LogTimingProfiler: Shutdown
+[2025.08.01-08.52.09:333][519]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.08.01-08.52.09:334][519]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.08.01-08.52.09:836][519]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.08.01-08.52.09:873][519]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.08.01-08.52.09:873][519]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2B065108-4CF8-A946-A208-9CADFEA14860%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=be5c93c54bd178a1cfab57b333cf06a1%7Cf8ea7e24b5d6412a866ed7f476e6e0fa%7Cceefd4f9-f62f-4e92-9ce0-020abdf45bad&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.08.01-08.52.10:959][519]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.08.01-08.52.10:966][519]LogNFORDenoise: NFORDenoise function shutting down
+[2025.08.01-08.52.10:969][519]RenderDocPlugin: plugin has been unloaded.
+[2025.08.01-08.52.10:980][519]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.08.01-08.52.10:980][519]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.08.01-08.52.10:980][519]LogPakFile: Destroying PakPlatformFile
+[2025.08.01-08.52.11:907][519]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.08.01-08.52.11:939][519]LogExit: Exiting.
+[2025.08.01-08.52.11:981][519]Log file closed, 08/01/25 17:52:11
